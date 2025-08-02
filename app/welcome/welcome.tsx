@@ -1,4 +1,4 @@
-import caretIcon from "./../../public/assets/double-down-caret.png";
+import caretIcon from "./double-down-caret.png";
 import { Birds } from "./Birds";
 
 export function Welcome() {

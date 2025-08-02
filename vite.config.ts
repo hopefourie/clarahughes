@@ -5,6 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 
 export default defineConfig({
+  base: "/app",
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
   build: {
     rollupOptions: {
